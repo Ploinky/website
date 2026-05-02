@@ -17,6 +17,10 @@
     color: var(--text-color);
 }
 
+body {
+    overflow: scroll;
+}
+
 
 @media (prefers-color-scheme: dark) {
     :root {
@@ -72,11 +76,12 @@ img {
     max-height: 5rem;
     border: none;
 }
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
 }
 
@@ -129,5 +134,9 @@ details[open] summary {
     img {
         max-height: 10rem;
         min-width: 5rem;
+    }
+
+    .card {
+        max-width: 95%;
     }
 }
