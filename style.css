@@ -18,7 +18,7 @@
 }
 
 body {
-    overflow: scroll;
+    overflow: auto;
 }
 
 
@@ -69,6 +69,7 @@ img {
     object-fit: cover;
     grid-area: img;
     max-width: 100%;
+    margin: auto;
 }
 
 .crane {
